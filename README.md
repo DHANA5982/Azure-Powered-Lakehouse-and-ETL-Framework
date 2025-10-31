@@ -40,7 +40,7 @@ The pipeline transforms traditional OLTP (Online Transaction Processing) data in
 ## 🏗️ Project Folder Structure
 
 ```
-Azure-Powered E-Commerce Data Warehouse Solution/
+Azure-Powered Lakehouse and ETL Framework/
 ├── 📁 ADF_Data_Ingestion_Pipeline/          # Azure Data Factory configurations
 │   ├── ADF - Data Ingestion Pipeline.JPG
 │   └── ForEachInput.json
@@ -56,7 +56,7 @@ Azure-Powered E-Commerce Data Warehouse Solution/
 │   └── 11-18_SQL_VIEW_*.sql                 # KPI and analytical views
 ├── 📁 data/                                # Local data storage
 │   ├── processed/                           # Datasets for GitHub
-│   └── raw/                                 # Datasets for MySQL and Mongo DB
+│   └── raw/                                 # Datasets for MySQL and MongoDB
 ├── 📁 Data_Ingestion_MySQL_MongoDB/         # Database ingestion notebooks
 │   ├── Data_Ingestion_MongoDB.ipynb
 │   └── Data_Ingestion_MySQL.ipynb
